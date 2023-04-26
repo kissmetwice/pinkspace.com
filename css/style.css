@@ -1,0 +1,313 @@
+/*pag inteira*/
+.conteiner{
+  margin: 10px;
+  font-family:Helvetica;
+}
+
+/*header da pag, + banner*/
+#headpg, #banner, nav{
+  margin-bottom: 1%;
+}
+
+/*header da pag*/
+#headpg{
+  background-color:rgb(255,178,207);
+  height: 70px;
+  padding: 20px;
+  display: flex; justify-content: space-between; align-items: center;
+}
+
+/*logo pinkspace*/
+#logo{
+  width: 200px; height: 60px;
+}
+
+#logo:hover{
+  cursor: pointer;
+}
+
+/*botões style*/
+#button{
+  padding: 0px;
+}
+#btn-login, #btn-newuser, #btn-logout, #btn-help {
+  background-color: rgb(255,110,199);
+  border: 2px solid #fff; border-radius: 5%;
+  padding:5px;
+  text-decoration: none;
+  color:#ffffff;
+  font-family:Helvetica;
+  font-size: 15px;
+}
+
+nav { /*aqui é o background da nav*/
+  background-color: rgb(255, 204, 224);
+  height: 40px;
+  margin-top: -1%; 
+  display: flex;
+  border: 2px solid rgb(203, 128, 157);
+}
+
+ul { /*'caixa' de texto dentro da nav*/
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  
+}
+
+li { /*cada texto uma 'caixa'*/
+  margin: 10px;
+  padding: 5px;
+  
+}
+
+nav a { /*texto*/
+  color: rgb(255,104,173);
+  text-decoration: none;
+  padding: 5px;
+  font-family: Helvetica;
+  font-size: 15px;
+}
+
+nav a:hover { /*quando o mouse passa por cima*/
+  text-decoration: underline;
+  color: #ffffff; 
+}
+
+/*banner da pag*/
+#banner{
+  background-color: rgb(255,110,199);
+  padding: 60px;
+  margin-top: 5px;
+}
+
+/*main tem c1, principal e c2*/
+main{
+  display: flex; flex-direction: row; justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+  /*border: 2px solid rgb(255, 158, 229);*/
+}
+
+/*colunas c1, principal, c2*/
+#c1, #principal, #c2 {
+  padding: 20px;
+}
+
+/*coluna 1*/
+#c1{
+  border: 2px solid rgb(255, 158, 229);
+  width: 20%;
+  padding: 20px;
+}
+
+/*div 1 de c1*/
+#div1c1{
+  /*padding: 10px;*/
+  margin-bottom: 10%;
+  /*border: 2px solid rgb(255, 158, 229);*/
+}
+
+/*foto de perfil*/
+#pfp{
+  margin-top: 5%;
+  width: 100%; 
+  height: 100%;
+  flex: center;
+}
+
+#title1{
+  text-align: center;
+}
+
+/*nome*/
+h2{
+  color: #FF4893;
+  margin-top: 1px;
+  margin-bottom: 1%;
+}
+
+/*username*/
+h3{
+  margin-top: -5px;
+  margin-bottom: 5%;
+  color: hotpink;
+}
+
+/*bio*/
+h4{
+  margin: 1%;
+  margin-left:0px;
+  color:#a93d66;
+}
+
+/*div 2 de c1, é a navegação do texto*/
+#div2c1{ 
+  margin-bottom: 10px;
+  border: 2px dashed rgb(255, 158, 229);
+  padding: 10px;
+}
+
+/*sumario*/
+#div2c1 h2{
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/*ul de nav texto, (a vai ser a mesma config)*/
+#nav1{ 
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  margin: 0px;
+  
+}
+
+#nav1 li{
+  border: 2px dashed rgb(255,178,207);
+  margin: 5px 0px;
+  width:95%;
+}
+
+a{
+  color: hotpink;
+  text-decoration: none;
+}
+
+a:hover{
+  color: deeppink;
+  text-decoration: underline;
+}
+
+/*coluna principal, apenas texto*/
+#principal{
+  border: 2px solid rgb(255, 158, 229);
+  width: 50%;
+  padding:30px;
+  margin:0px 15px;
+}
+
+/*msm config de h2 para tds as divs*/
+#principal h2{
+  margin-bottom: 5px;
+}
+
+#principal ul{
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#principal li{
+  margin: 0px;
+  padding: 0px;
+  color:#BF3D6F;
+}
+
+#principal p{
+  margin: 0px;
+  padding: 3px;
+  color:#BF3D6F;
+}
+
+/*div do principal*/
+#div1p, #div2p, #div3p, #div4p{ 
+  margin-bottom: 5%;
+}
+
+/*coluna c2*/
+#c2{
+  border: 2px solid rgb(255, 158, 229);
+  width: 20%;
+  height: 100%;
+  padding: 20px;
+}
+
+/*section 2 vai ter um h2,fotos e href*/
+#sec2{
+  /*border: 2px solid rgb(255, 158, 229);*/
+  margin-bottom: 10%;
+}
+
+#sec2 h2{
+  text-align: center;
+}
+
+/*fotos*/
+#imgs{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+#img1, #img2, #img3, #img4, #img5, #img6{
+  border: 2px solid rgb(255, 158, 229);
+  width:40%;
+  margin: 5px; margin-top: 0px;
+}
+
+/*a quase mesma config (ver mais)*/
+#sec2 a {
+  display: block;
+  text-align: right;
+}
+
+/*aside guarda os links*/
+aside{
+  border: 2px dashed rgb(255, 158, 229);
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+aside h2{
+  text-align: center;
+}
+
+/*ul dos links*/
+#aside1{
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+
+}
+
+#aside1 li{
+  border: 2px dashed rgb(255,178,207);
+  margin: 5px 0px;
+  width:95%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#aside1 a{
+  margin: 5px;
+}
+
+#iconinsta, #iconttk, #iconyt, #iconspotify{
+  width: 25px;
+  height: 25px;
+  margin-right: auto;
+}
+
+footer{
+  background-color: rgb(255, 204, 224);
+  padding: 15px;
+  height: 50px;
+  margin-top: 1%; 
+  display: flex;
+  border: 2px solid rgb(203, 128, 157);
+  justify-content: space-between;
+  align-items:flex-end;
+}
+
+h5{
+  font-family: Helvetica;
+  margin: 0px;
+  color: rgb(255,104,173);
+  text-align: right;
+}
